@@ -1,16 +1,20 @@
-# React + Vite
+# CTD - React V4 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# About
+A To-Do List App
+Displays a list of to-dos/tasks a user can do!
 
-Currently, two official plugins are available:
+# Installation Instructions
+Step 1: Clone the GitHub Repo here: https://github.com/euclidm/todo-list (Click Code > Copy link or Open with GitHub Desktop)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Step 2: Open to-do list folder 
 
-## React Compiler
+Step 3: Open terminal and type 'npm install'
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# How to Run the Development Server
 
-## Expanding the ESLint configuration
+Step 4: Open terminal and type 'npm run dev'
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Step 5: Open your browser/tab and type 'http://localhost:5173'
+
+Thank you!
