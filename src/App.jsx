@@ -4,19 +4,22 @@ import './App.css';
 import TodoList from './TodoList';
 import TodoForm from './TodoForm';
 
-const todos = [
-  {id: 1, title: "Review Resources"},
-  {id: 2, title: "Take Notes"},
-  {id: 3, title: "Code Out App"}
-];
-
 function App() {
-  const [todoList, setTodoList] = useState(todos);
+  const [todoList, setTodoList] = useState([]);
+
+  function addTodo(todoTitle){
+    const newTodo = {
+      id: Date.now(),
+      title: todoTitle
+    };
+
+    setTodoList(previous => [newTodo, ...previous]);
+  }
 
   return (
     <div>
       <h1>My Todos</h1>
-      <TodoForm/>
+      <TodoForm onAddTodo={addTodo}/>
       <TodoList todoList={todoList}/>
     </div>
   )
